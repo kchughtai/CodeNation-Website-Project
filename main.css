@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Playfair+Display:wght@700&family=Prata&display=swap');
+
+*{
+    color: #1E152A;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+body {
+    background-image: url("back1.jpg");
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    background-color: rgba(169, 178, 172, .2);
+    text-align: center;
+    font-size: 100px;
+    padding: 20px
+  }
+
+h2 {
+    background-color: rgba(169, 178, 172, .3);
+    font-size: 50px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+h3 {
+    background-color: rgba(169, 178, 172, .3);
+    font-size: 50px;
+    padding: 10px;
+    font-family: 'Playfair Display', serif;
+}
+
+.whiteback {
+    background-color: white;
+    font-size: larger;
+}
+
+.ghost {
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    background-color: rgba(169, 178, 172, .3);
+}
+
+.ghost2 {
+    font-size: larger;
+    background-color: rgba(169, 178, 172, .3);
+}
+
+.mainimage {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+
+.maintext {
+    padding: 10px;
+    font-size: larger;
+    text-align: center;
+    background-color: rgba(169, 178, 172, .3)
+}
